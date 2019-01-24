@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border;
+}
+
+body{
+  background: cornsilk;
+}
+
+div{
+  height: 33.33vh;
+}
+
+input[type=number]{
+  height: 90%;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 60px;
+  background: #EBEBEB;
+  color: darkblue;
+  font-size: 50px;
+  font-family: Indie Flower, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+}
+
+::-webkit-input-placeholder{ /* for chrome/opera/safari */
+  color: #333333;
+}
+
+::-moz-placeholder{ /* for mozilla firefox */
+  color: #333333;
+}
+
+::-ms-input-placeholder{ /* for microsoft edge */
+  color: #333333;
+}
